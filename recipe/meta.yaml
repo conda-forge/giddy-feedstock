@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
   host:
@@ -31,7 +31,7 @@ test:
     - giddy
 
 about:
-  home: http://github.com/pysal/giddy
+  home: http://pysal.org/
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
