@@ -31,7 +31,7 @@ test:
     - giddy
 
 about:
-  home: http://github.com/pysal/giddy
+  home: http://pysal.org/
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
