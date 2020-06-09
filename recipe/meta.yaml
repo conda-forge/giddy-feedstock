@@ -1,6 +1,5 @@
-
 {% set name = "giddy" %}
-{% set version = "2.3.0" %}
+{% set version = "2.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0d281eb5547f29a112c73365733467128ae2b664576b1b4b1d9cc7329900db49
+  sha256: d829439758271f514da2512a65d9cd527fd62af07c1a84174535d308580c4289
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
   host:
@@ -36,7 +35,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
-  summary: 'GeospatIal Distribution DYnamics (giddy) in PySAL'
+  summary: GeospatIal Distribution DYnamics (giddy) in PySAL
 
   description: |
     Giddy is an open-source python library for the analysis of dynamics of longitudinal spatial 
