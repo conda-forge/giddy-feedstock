@@ -21,18 +21,18 @@ requirements:
     - pip
   run:
     - python >=3
-    - scipy >=0.11
-    - libpysal >=4.0.0
-    - mapclassify >=2.0.0
-    - esda >=2.0.0
-    - quantecon
+    - scipy >=1.3.0
+    - libpysal >=4.0.1
+    - mapclassify >=2.1.1
+    - esda >=2.1.1
+    - quantecon >=0.4.7
 
 test:
   imports:
     - giddy
 
 about:
-  home: http://pysal.org/
+  home: http://pysal.org
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
@@ -43,7 +43,7 @@ about:
     data. Originating from the spatial dynamics module in PySAL (Python Spatial Analysis Library), 
     it is under active development for the inclusion of newly proposed analytics that consider the 
     role of space in the evolution of distributions over time.
-  doc_url: http://giddy.readthedocs.io/
+  doc_url: http://pysal.org/giddy
   dev_url: https://github.com/pysal/giddy
 
 extra:
