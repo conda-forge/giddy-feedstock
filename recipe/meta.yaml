@@ -1,5 +1,5 @@
 {% set name = "giddy" %}
-{% set version = "2.3.2" %}
+{% set version = "2.3.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c19a25d05475cbd269e2642e843045c52e8d3563dc8a39db80982bcc724dd3d9
+  sha256: af5e53e798564aea909f2efa0e177a0625ab2a230e23b05c0e8468242a90475c
 
 build:
   noarch: python
