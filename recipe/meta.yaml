@@ -29,7 +29,7 @@ requirements:
     - esda >=2.7
     - quantecon >=0.8
     - seaborn
-    - matplotlib
+    - matplotlib-base
 
 test:
   requires:
