@@ -1,5 +1,5 @@
 {% set name = "giddy" %}
-{% set version = "2.3.7" %}
+{% set version = "2.3.8" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d4675ab00e08109328d7aef469414221d1aeece691a845c4e3044fed9954d907
+  sha256: a5da015ffb4bdc07794a14b6871cec39f6b948a3fea0fd030572bde154cb5af8
 
 build:
   noarch: python
