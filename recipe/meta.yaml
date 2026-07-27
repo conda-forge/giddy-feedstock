@@ -1,6 +1,6 @@
 {% set name = "giddy" %}
 {% set version = "2.3.9" %}
-{% set python_min = "3.11" %}
+{% set python_min = "3.12" %}
 
 package:
   name: {{ name|lower }}
@@ -23,10 +23,10 @@ requirements:
     - setuptools-scm >=6.2
   run:
     - python >={{ python_min }}
-    - scipy >=1.12
+    - scipy >=1.14
     - libpysal >=4.12
     - mapclassify >=2.7
-    - esda >=2.7
+    - esda >=2.7, <3
     - quantecon >=0.8
     - seaborn
     - matplotlib-base
