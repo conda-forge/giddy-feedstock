@@ -26,7 +26,7 @@ requirements:
     - scipy >=1.14
     - libpysal >=4.12
     - mapclassify >=2.7
-    - esda >=2.7, <3
+    - esda >=2.7,<3
     - quantecon >=0.8
     - seaborn
     - matplotlib-base
